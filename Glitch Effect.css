@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url("glitchEffect.png") no-repeat 50% 50%, #000000;
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box{
+    position: absolute;
+    background: url("glitchEffect.png") no-repeat 50% 50%;
+    background-size: contain;
+    background-attachment: fixed;
+}
